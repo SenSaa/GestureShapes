@@ -1,0 +1,111 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/text_view1"
+        android:id="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="181dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Action_Up"
+        android:id="@+id/textViewAUP"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Action_Down"
+        android:id="@+id/textViewAD"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Action_Cancel"
+        android:id="@+id/textViewAC"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Action_Move"
+        android:id="@+id/textViewAM"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Action_Pointer_Down"
+        android:id="@+id/textViewAPD"
+        android:layout_below="@+id/textViewAD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Action_Pointer_UP"
+        android:id="@+id/textViewAPUP"
+        android:layout_marginBottom="69dp"
+        android:layout_above="@+id/textViewAC"
+        android:layout_alignRight="@+id/textViewAPD"
+        android:layout_alignEnd="@+id/textViewAPD" />
+
+    <ImageView
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:id="@+id/imageView"
+        android:layout_above="@+id/textViewAPD"
+        android:layout_alignLeft="@+id/textViewAPD"
+        android:layout_alignStart="@+id/textViewAPD" />
+
+
+    <com.mushin.gestureshapes.MyCustomView2
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/customview"
+        android:layout_width="300dip"
+        android:layout_height="400dip"
+
+        android:layout_centerInParent="true" />
+
+
+</RelativeLayout>

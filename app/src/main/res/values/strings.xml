@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">GestureShapes</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="text_view1">Second Activity</string>
+
+    <string name="text_view2">Text View controlled by Light Sensor!</string>
+
+    <string name="button">Back to Main Activity</string>
+
+</resources>
