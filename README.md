@@ -4,3 +4,4 @@
 - With every touch event on the screen, a toast pops up distinguishing the touch event.
 - Bonus: A ball bound to the display resolution that moves according the accelerometer titl events.
 - Activity 2 is for advanced gestures, and needs polishing...
+- Random functionality tests in general.
