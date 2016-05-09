@@ -5,3 +5,5 @@
 - Bonus: A ball bound to the display resolution that moves according the accelerometer titl events.
 - Activity 2 is for advanced gestures, and needs polishing...
 - Random functionality tests in general.
+
+![alt tag](http://i.imgur.com/528DjUP.png "App screenshot")
